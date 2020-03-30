@@ -1,0 +1,272 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.container {
+	max-width: 1280px;
+	height: 90px;
+	margin: auto;
+	background-color: 2880b9;
+}
+
+.logo img {
+	height: 50px;
+	width:  auto;
+	padding: 20px;
+	float: left;
+}
+
+.topnav {
+	float: right;
+	
+}
+
+.topnav li {
+	display-style: none;
+	font-size: 20px;
+	display: inline;
+	padding: 20px;
+	
+}
+
+.topnav ul {
+	margin: 30px;
+}
+
+.topnav li a{
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.topnav li a:hover {
+	background-color: #555;
+    color: white;
+    } 
+	
+/*----------------menu bar complete------------*/	
+
+#home { 
+        max-width: 1280px;
+        height: 100vh;
+        margin: auto;
+		background-color: #D4E6F1;
+}
+
+.text {
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin: 40px;
+}
+
+.text{
+	margin-top: 300px;
+}
+
+.text p {
+	font-size: 40px;
+	font-family: sans-serif;
+	padding-bottom: 30px;
+}
+
+.text a {
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding: 10px 32px;
+	border-radius: 4px;
+	background-color: #7FB3D5;
+	
+}
+
+.himg img {
+	width: 700px;
+	height: auto;
+	float: right;
+	padding-top: 70px;	
+}
+
+
+/*<-------------------------home page-------------------->*/
+
+#method {
+	max-width: 1280px;
+    height: 120vh;
+    margin: auto;	
+	background-color: #FDF2E9;
+	
+	
+}
+
+.cap {
+	margin: 15px;
+	width: 100px;
+	height: auto;
+}
+
+.cap img {
+	width: 450px;
+	height: auto;
+	float: left;
+	padding: 20px;
+	border: 15px solid #2493B9 ;
+}
+.cap img:hover {
+	-webkit-transform: scaleX(-0.5);
+     transform: scaleX(-1);
+}
+
+
+.above {
+	width: 50%;
+	height: auto;
+	margin-left : 40px;
+	padding: 7px;
+	float: left;
+	
+}
+
+.about h1{
+	padding-bottom: 20px;
+    color: #68C599 ;
+}
+
+.about p{
+	font-size: 20px;
+}
+
+.menu h2{
+	color:#68C599;
+	padding-top: 25px;
+}
+
+.menu ul{
+	padding: 20px; 
+}
+
+.menu li{
+	padding: 15px;
+	font-size: 20px;
+}
+/*<--------------------------------------------------------------->*/
+
+#service {
+	max-width: 1280px;
+    height: 100vh;
+    margin: auto;
+	background-color: #1FCADE;
+}
+
+.head h1 {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.block{
+	width: 100%;
+	margin-top: 30px;
+	margin-left: 40px;
+	
+}
+
+.box{
+	width: 25%;
+	height: 400px;
+	float: left;
+	margin: 10px;
+	font-size: 17px;
+	padding: 10px;
+	background-color: white;
+	border-style: solid;
+	border-width: 20px;
+	border-color: purple;
+}
+
+/*<---------------------------service part end------------------->*/
+
+#foot {
+	max-width: 1280px;
+    height: 40vh;
+    margin: auto;
+	background-color: #F0F3F4 ;
+}
+
+.com h1 {
+	text-align: center;
+	padding-top: 60px;
+	color: #45B39D;
+}
+
+.polo img {
+	width: 15%;
+	height: auto;
+	padding: 15px;
+	margin-left: 22px;
+}
+
+/*<--------------------------client section end--------------->*/
+
+
+#contact {
+	max-width: 1280px;
+    height: 60vh;
+    margin: auto;
+	background-color: #85929E  ;
+}
+
+.get h1 {
+	text-align: center;
+	padding-top: 40px;
+	color: #EBDEF0;
+}
+.frame {
+	margin: 0px;
+	
+}
+.plot {
+	width: 20%;
+	height: auto;
+	float: left;
+	font-size: 25px;
+	padding: 80px;	
+}
+
+.plot p {
+	text-align: center;
+	color: bold black;
+	font-family: sans-serif;
+	
+}
+
+.plot img {
+	width: 30px;
+	height: auto;
+	padding: 40px;
+}
+
+
+/*<!--------------------------------------client part end---------------------->*/
+
+#soft {
+	max-width: 1280px;
+    height: 10vh;
+    background-color: white  ;
+	padding: 20px;
+}
+
+#soft img {
+	width: 15%;
+	height: auto;
+	float: left;
+	margin: 20px;
+	
+}
+
+#soft strong {
+	float: left;
+	margin-top: 30px;
+	
+}
